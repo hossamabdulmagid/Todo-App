@@ -61,7 +61,7 @@ const App = () => {
           <div className="form-group">
             <label htmlFor="text" >Todo</label>
             <input type="text" name="text" value={formData.text} onChange={e => onChange(e)} className="form-control" placeholder="Enter Your Todo" />
-            <button type="submit" className="btn btn-success" >Add Todo </button>
+            <button type="submit" className="btn btn-success btn-sm" >Add Todo </button>
           </div>
         </form>
       </div>
